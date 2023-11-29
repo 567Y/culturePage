@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    width: 100%;
+    border: 1px solid #000;
+}
+
+.main .history-origin{
+    display: flex;
+    justify-content: space-between;
+}
+.main .history-origin .img-left img{
+    width: 500px;
+    height: 650px;
+}
+.main .history-origin .img-left img{
+    width: 500px; height: 650px;
+}
+.main .history-origin .content{
+	width: 300px;
+    padding: 0 10px;
+}
+.main .history-origin .content .title{
+    text-align: center;
+    font-size: 23px;
+    font-weight: bold;
+    margin: 20px 0;
+}
+.main .history-origin .content p{
+    text-indent: 2em;
+    margin: 8px 0;
+}
+.main .img-foot img{
+    width: 100%;
+    height: 600px;
+}
+
+.main .intor{
+    width: 100%;
+    height: 800px;
+    border: 1px solid #000;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+}
+
+.main .intor div{
+    width: 33%;
+    height: 265px;
+    border: 1px solid orange;
+}
+.main .intor div img{
+    width: 100%;
+    height: 100%;
+}
+.main .intor div{
+    font-size: 18px;
+    line-height: 40px;
+}
+
+body {
+    background-color: #ededed;
+}
+
+.silder {
+    width: 1300px;
+    height: 400px;
+    box-sizing: border-box;
+    margin:100px auto;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.silder .list {
+    width: 7800px;
+    height: 400px;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.silder .list img {
+    width: 1500px;
+    height: 400px;
+    float: left;
+}
+
+.left,
+.right {
+    position: absolute;
+    z-index: 1000;
+    background-color: rgba(0,0,0,.4);
+    opacity: .6;
+    width: 30px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    color: white;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.left:hover,
+.right:hover {
+    background-color: rgba(0,0,0,.8);
+}
+
+.left {
+    left: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    border-top-right-radius: 18px;
+    border-bottom-right-radius: 18px;
+}
+
+.right {
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    border-top-left-radius: 18px;
+    border-bottom-left-radius: 18px;
+}
+
+ol {
+    position: absolute;
+    z-index: 1000;
+    bottom: 10px;
+    left: calc(50% - 50px);
+    right: 0;
+    margin: auto;
+    /* margin-left: 230px; */
+}
+
+ol li {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    border: 1px solid #000000;
+    float: left;
+    margin: 0 3px;
+}
+
+.current {
+    background-color: orange;
+}
+
+
+

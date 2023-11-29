@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/shadowPlay.css">
+    <script src="./js/jquery.min.js"></script>
+
+</head>
+<style>
+body{
+    background: url(img/png14.png);
+} 
+  /* 返回顶部图标 */
+    .back {
+        position: fixed;
+        width: 70px;
+        height: 70px;
+        background-color: darkred;
+        right: 10px;
+        bottom: 100px;
+        display: none;
+        text-align: center;
+        border-radius: 50px;
+        cursor: pointer;
+        color: #fff;
+    }
+    .back img{
+        width: 50%;
+        height:50%;
+    }
+</style>
+<script src="./js/animation.js"></script>
+
+<body>
+    
+ <div class="main">
+    <div class="silder">
+        <div class="left">&lt </div>
+        <div class="right">&gt</div>
+        <ol>
+
+        </ol>
+        <ul class="list">
+            <li><img src="./img/shadow play11.jpg" alt=""></li>
+            <li><img src="./img/shadow-play9.jpg" alt=""></li>
+            <li><img src="./img/shadow play13.jpg" alt=""></li>
+            <li><img src="./img/shadow-play1.jpg" alt=""></li>
+            <li><img src="./img/shadow play12.jpg" alt=""></li>
+        </ul>
+    </div>
+
+    <div class="history-origin">
+            <div class="img-left">
+                <img src="./img/shadow play3.jpg" alt="">
+            </div>
+            <div class="content">
+                <div class="title">历史起源</div>
+                <div class="con">
+                    <p>皮影戏是中国古老的传统戏剧形式之一，起源于两千多年前的汉代。它是一种利用光影效果来表演故事的戏剧形式，通过操纵皮影人形，配以背景布景和音乐，展现出生动而有趣的戏剧效果。皮影戏以其独特的艺术魅力，深受广大观众的喜爱。</p>
+                    <p>皮影戏的主要表演工具是由羊皮或牛皮制成的人形，制作精细，栩栩如生。表演者将人形悬挂在白色的纱幕后，用手操纵人形的动作和表情，借助灯光的照射，在纱幕上形成逼真的影像。观众们坐在纱幕的另一侧观看，可以清晰地看到皮影人形的动作和表情，感受到其中的情感和故事。</p>
+                    <p>皮影戏的故事内容丰富多样，有神话传说、历史故事、民间传说等。其中最有名的故事包括《白蛇传》、《西游记》、《红楼梦》等。这些故事都有着深厚的文化底蕴，通过皮影戏的表演，观众们可以领略到中国传统文化的魅力。</p>
+                    <p>除了人形之外，皮影戏还有背景布景和音乐伴奏。背景布景通常是用纸或绢制成的，用来创造戏剧的场景和环境。音乐伴奏则是通过乐器演奏出来的，如二胡、笛子、锣鼓等。背景布景和音乐伴奏的配合使得皮影戏更加生动有趣，增加了观众的欣赏体验。</p>
+                    <p>皮影戏不仅在中国有着悠久的历史，而且在世界范围内也有着广泛的影响。它曾被列入联合国教科文组织的“人类非物质文化遗产代表作名录”，成为中国文化的瑰宝之一。近年来，越来越多的人开始关注和学习皮影戏，以保护和传承这一独特的艺术形式。</p>
+                    <!-- <p>总的来说，皮影戏是一种以光影效果为特色的戏剧形式，通过操纵人形、背景布景和音乐伴奏，展现出生动有趣的戏剧效果。它不仅有着悠久的历史和丰富的文化内涵，而且在世界范围内也有着广泛的影响。通过观看和学习皮影戏，我们可以了解和传承中国传统文化的瑰宝。</p> -->
+                </div>
+            </div>
+            <div class="img-right">
+                <img src="./img/shadow play2.jpg" alt="">
+            </div>
+            
+        </div>
+        <div class="img-foot">
+            <img src="./img/b1.jpg" alt="">
+        </div>
+
+        <div class="intor">
+            <div class="intor-con">
+                中国地域广阔，各地的皮影都有自己的特色，但是皮影的制作程序大多相同，
+                通常要经过选皮、制皮、画稿、过稿、镂刻、敷彩、发汗慰平、缀结合成等八道工序、
+                手工雕刻3000余刀，是一个复杂奇妙的过程。店影的艺术创意汲取了中国汉代帛画、画像石、画像砖和唐、宋寺院壁画之手法与风格
+            </div>
+            <div><img src="./img/shadow-play9.jpg" alt=""></div>
+            <div class="intor-con">
+                其制作过程是:先将羊皮、驴皮或其他兽皮的毛、血去净，然后经药物处理，
+                使皮革变薄，呈半透明，涂上桐油，然后艺人们将各种人物的图谱描绘在上面，
+                用各种型号的刀具刻凿后，再涂抹上颜色，上色时主要使用红、黄、青、绿、黑等五种纯色。
+            </div>
+            <div><img src="img/shadow play4.jpg" alt=""></div>
+            <div class="intor-con">
+                雕刻时，一般都用阳刻，有时也用阳刻会画染色进究女性发饰及衣饰多以花、
+                草凤等纹样为图案，男性则用龙、虎云等纹样为图案。忠良人物为五分面反面人物为七分面。
+                人物造型与戏剧人物-样，生、旦、净、丑角色产全。制成的皮影高的达55厘米，低的有10厘米左右。
+            </div>
+            <div><img src="./img/shadow play6.jpg" alt=""></div>
+            <div class="intor-con">
+                皮影人的四肢和头部是分别雕成的，用结联缀而成，以便表演时活动自如。一个皮影人，
+                要用五根竹棍操纵，艺人手指灵活，常常玩得观众眼花缭乱。不仅手上功夫绝妙高超，嘴上还要说、念、打、唱，脚下还要制动锣鼓。
+                演皮影的屏幕，是用一块1平方米大小的白纱布做成的。
+            </div>
+            <div><img src="./img/shadow play8.jpg" alt=""></div>
+            <div class="intor-con">
+                白纱布经过鱼油打磨后，变得挺括透亮演出时，皮影紧贴屏幕活动，人影和五彩缤纷的颜色真切动人。皮影道具小，
+                演出方便，且不受场地限制，演员也不需正规训练，所以深受人民的喜爱。在皮影戏盛行的地区，人们会亲切地称它为“一担挑”艺术
+            </div>
+        </div>
+        <div class="back">
+			<img src="./img/返回顶部.png" alt="">
+			<div> 返回顶部</div>
+		</div>
+    </div>
+</div>
+</body>
+
+
+    <script>
+
+        var silder = document.querySelector('.silder');
+        var list = document.querySelector('.list');
+        var right = document.querySelector('.right');
+        var left = document.querySelector('.left');
+        var ol = document.querySelector('ol');
+        var img = document.querySelector('img');
+
+        silder.addEventListener('mouseover', function () {
+            silder.children[0].style.display = 'block'
+            silder.children[1].style.display = 'block'
+
+            clearInterval(timer);
+        })
+
+        silder.addEventListener('mouseout', function () {
+            silder.children[0].style.display = 'none'
+            silder.children[1].style.display = 'none'
+
+            // timer = setInterval(function () {
+            //     right.click();
+            // }, 2000)
+        })
+
+        //自动根据图片数量生成小圆圈
+        for (var i = 0; i <= silder.children.length; i++) {
+            var li = document.createElement('li')
+            ol.appendChild(li)
+
+            //点击某个圆圈就跳转到对应索引号的图片
+            ol.children[i].setAttribute('index', i);
+            ol.children[i].addEventListener('click', function () {
+                for (var i = 0; i < ol.children.length; i++) {
+                    ol.children[i].className = '';
+                }
+                //排他思想 
+                this.className = 'current'
+                //点击某个圆圈就跳转到对应索引号的图片
+                var index = this.getAttribute('index');
+                animate(list, -index * img.offsetWidth);
+
+                num = index;
+                circle = index;
+            })
+        }
+        ol.children[0].className = 'current'
+        //克隆第一张图片放到最后list的最后一张去 这样是更好的图片过渡
+        var first = list.children[0].cloneNode(true);
+        list.appendChild(first);
+
+        //按右按钮图片进行滚动
+        var num = 0;
+        var circle = 0;
+        right.addEventListener('click', function () {
+            if (num == list.children.length - 1) {
+                list.style.left = 0;
+                num = 0;
+            }
+            num++;
+            animate(list, -num * img.offsetWidth);
+            circle++;
+
+            if (circle == list.children.length - 1) {
+                circle = 0;
+            }
+
+            for (var i = 0; i < ol.children.length; i++) {
+                ol.children[i].className = '';
+            }
+            ol.children[circle].className = 'current';
+        })
+
+        left.addEventListener('click', function () {
+            if (num == 0) {
+                num = list.children.length - 1;
+                list.style.left = -num * img.offsetWidth + 'px';
+            }
+            num--;
+            animate(list, -num * img.offsetWidth);
+
+            circle--;
+            if (circle < 0) {
+                circle = ol.children.length - 1;
+            }
+            for (var i = 0; i < ol.children.length; i++) {
+                ol.children[i].className = '';
+            }
+            ol.children[circle].className = 'current'
+        })
+
+        // var timer = setInterval(function () {
+        //     right.click();
+        // }, 2000)
+
+          $(function() {
+            $(document).scrollTop(100);
+            var boxTop = $(".redNews").offset().top;
+            // $(document).scroll(function() 和 $(window).scroll(function()设置滚动事件都可以
+            $(window).scroll(function() {
+                // console.log(11);
+                console.log($(document).scrollTop());
+                if ($(document).scrollTop() >= boxTop) {
+                    $(".back").fadeIn();
+                } else {
+                    $(".back").fadeOut();
+                }
+            });
+            // 返回顶部
+            $(".back").click(function() {
+                // $(document).scrollTop(0);
+                $("body, html").stop().animate({
+                    scrollTop: 0
+                });
+            })
+        })
+
+
+        $(function() {
+            $(document).scrollTop(100);
+            var boxTop = $(".history-origin").offset().top;
+            // $(document).scroll(function() 和 $(window).scroll(function()设置滚动事件都可以
+            $(window).scroll(function() {
+                // console.log(11);
+                console.log($(document).scrollTop());
+                if ($(document).scrollTop() >= boxTop) {
+                    $(".back").fadeIn();
+                } else {
+                    $(".back").fadeOut();
+                }
+            });
+            // 返回顶部
+            $(".back").click(function() {
+                // $(document).scrollTop(0);
+                $("body, html").stop().animate({
+                    scrollTop: 0
+                });
+            })
+        })
+    </script>
+
+</body>
+
+</html>

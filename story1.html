@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/bgColor.css">
+    <style>
+        body {
+            background-color: #fff;
+        }
+
+        .main .title,
+        .foot {
+            width: 100%;
+            height: 50px;
+            line-height: 50px;
+            background-color: darkred;
+            color: #fff;
+            margin-top: 150px;
+        }
+        .main{
+            width: 100%;
+            height: 900px;
+        }
+        .main .foot {
+            text-align: center;
+        }
+
+        .main .content {
+            font-size: 18px;
+            margin: 10px;
+            color: #ccc;
+        }
+
+        img {
+            padding: 10px 15px;
+            width: 350px;
+            height: 190px;
+            float: right;
+        }
+        .slot {
+            position: relative;
+            height: 100%;
+            overflow: hidden;
+        }
+
+        .slot-track {
+            position: relative;
+            float: left;
+            width: 4.76%;
+            height: 100%;
+            overflow: hidden;
+        }
+
+        .slot-track:first-child {
+            width: 4.8%;
+        }
+
+        .slot-item {
+            position: relative;
+            height: 100%;
+        }
+
+
+        .slot-item.s1 {
+            background-image: url(img/c1.png);
+        }
+
+        .slot-item.s2 {
+            background-image: url(img/c2.png);
+        }
+
+        .slot-item.s3 {
+            background-image: url(img/c3.png);
+        }
+
+        .slot-item.s4 {
+            background-image: url(img/c4.png);
+        }
+
+        .slot-item.s5 {
+            background-image: url(img/c5.png);
+        }
+
+        .slot-item.s6 {
+            background-image: url(img/c6.png);
+        }
+
+        .slot-item.s7 {
+            background-image: url(img/c7.png);
+        }
+
+        .slot-item.s8 {
+            background-image: url(img/c8.png);
+        }
+
+        .slot-item.s9 {
+            background-image: url(img/c9.png);
+        }
+
+        .slot-item.s10 {
+            background-image: url(img/c10.png);
+        }
+
+        .slot-item.s11 {
+            background-image: url(img/c11.png);
+        }
+
+        .slot-item.s12 {
+            background-image: url(img/c12.png);
+        }
+
+        .slot-item.s13 {
+            background-image: url(img/c13.png);
+        }
+
+        .slot-item.s14 {
+            background-image: url(img/c14.png);
+        }
+
+        .slot-item.s15 {
+            background-image: url(img/c15.png);
+        }
+
+        .slot-item.s16 {
+            background-image: url(img/c16.png);
+        }
+
+        .slot-item.s17 {
+            background-image: url(img/c17.png);
+        }
+
+        .slot-item.s18 {
+            background-image: url(img/c18.png);
+        }
+
+        .slot-item.s19 {
+            background-image: url(img/c19.png);
+        }
+
+        .slot-item.s20 {
+            background-image: url(img/c20.png);
+        }
+
+        .slot-item.s21 {
+            background-image: url(img/c21.png);
+        }
+
+        .slot-item.s22 {
+            background-image: url(img/c1.png);
+        }
+
+        .slot-item.s23 {
+            background-image: url(img/c2.png);
+        }
+
+        .slot-item.s24 {
+            background-image: url(img/c3.png);
+        }
+
+        .slot-item.s25 {
+            background-image: url(img/c4.png);
+        }
+
+        .slot-item.s26 {
+            background-image: url(img/c5.png);
+        }
+
+        .slot-item.s27 {
+            background-image: url(img/c6.png);
+        }
+
+        .slot-item.s28 {
+            background-image: url(img/c7.png);
+        }
+
+        .slot-item.s29 {
+            background-image: url(img/c8.png);
+        }
+
+        .slot-item.s30 {
+            background-image: url(img/c9.png);
+        }
+
+        .slot-item.s31 {
+            background-image: url(img/c10.png);
+        }
+
+        .slot-item.s32 {
+            background-image: url(img/c11.png);
+        }
+
+        .slot-item.s33 {
+            background-image: url(img/c12.png);
+        }
+
+        .slot-item.s34 {
+            background-image: url(img/c13.png);
+        }
+
+        .slot-item.s35 {
+            background-image: url(img/c14.png);
+        }
+
+        .slot-item.s36 {
+            background-image: url(img/c15.png);
+        }
+
+        .slot-item.s37 {
+            background-image: url(img/c16.png);
+        }
+
+        .slot-item.s38 {
+            background-image: url(img/c17.png);
+        }
+
+        .slot-item.s39 {
+            background-image: url(img/c18.png);
+        }
+
+        .slot-item.s40 {
+            background-image: url(img/c19.png);
+        }
+
+        .slot-item.s41 {
+            background: url(img/c20.png);
+        }
+
+        .slot-item.s42 {
+            background-image: url(img/c21.png);
+        }
+
+        .slot {
+            height: 1000px;
+            position: absolute;
+            left: 0;
+            right: 0;
+            top: 0;
+            bottom: 0;
+            z-index: -1;
+        }
+        
+    </style>
+</head>
+
+<body>
+    <div class="main">
+        <div class="title">红军长征故事·丰碑</div>
+        <img src="./img/story1.jpg" alt="">
+        <p class="content">
+            红军队伍在冰天雪地里艰难地前进。严寒把云中山冻成了一个大冰坨。狂风呼啸、大雪纷飞，似乎要吞掉这支装备很差的队伍。将军早把他的马让给了重伤员。他率领战士们向前挺进，在冰雪中为后续部队开辟一条通路。等待他们的是恶劣的环境和残酷的战斗，可能吃不上饭，可能睡雪窝，可能一天要走一百几十里路，可能遭到敌人的突然袭击。这支队伍能不能经受住这样严峻的考验呢?将军思索着队伍忽然放慢了速度，前面有许多人围在一起，不知在干什么。将军边走边喊:“不要停下来，快速前进!“将军的警卫员回来告诉他:“前面有人冻死了。<br>
+            将军愣了愣，什么话也没说，快步朝前走去。<br>
+            一个冻僵的老战士，倚靠一棵光秃秃的树干坐着，一动也不动，好似一尊塑像。他浑身都落满了雪，可以看出镇定、自然的神情，却一时无法辨认面目。半截带纸卷的旱烟还夹在右手的中指和食指间，烟火已被风雪打熄。他微微向前伸出手来，好像要向战友借火。单薄破旧的衣服紧紧地贴在他的身上。
+            <br>
+            将军的脸上顿时阴云密布，嘴角边的肌肉明显地抽动了一下，喜然转过头向身边的人吼道:“叫军需处长来!老子...“一阵风雪吞没了他的话。他红着眼睛，像一头发怒的狮子，样子十分可怕。
+            没有人回答他，也没有人走开...... <br>
+            "听见没有?警卫员!快叫军需处长跑步过来!”将军两腮的肌肉大幅度地抖动着，不知是由于冷，还是由于愤怒这时候，有人小声告诉将军:“他就是军需处长....将军愣住了，久久地站在雪地里。雪花无声地落在他的脸上，溶化成闪烁的泪珠，他的眼睛湿润了。他深深地呼出了一口气，缓缓地举起了右手，举至齐眉处，向那位与云中山化为一体的军需处长敬了一个军礼。风更汗了，雪更大了。大雪很快爱盖了军需处长的身体，他变成了一座品草的丰魂，将军什么话也没有说，大步地走进了漫天的风雪之中，他听见无教沉重而又坚定的脚步声，那声音似乎在告诉人们:
+            如果胜利不属于这样的队伍，还会属于谁呢?
+        </p>
+        <div class="foot">长军故事</div>
+    </div>
+
+    <div class="slot">
+        <div class="slot-track">
+            <div class="slot-item s1"></div>
+        </div>
+        <div class="slot-track">
+            <div class="slot-item s2"></div>
+        </div>
+        <div class="slot-track">
+            <div class="slot-item s3"></div>
+        </div>
+        <div class="slot-track">
+            <div class="slot-item s4"></div>
+        </div>
+        <div class="slot-track">
+            <div class="slot-item s5"></div>
+        </div>
+        <div class="slot-track">
+            <div class="slot-item s6"></div>
+        </div>
+        <div class="slot-track">
+            <div class="slot-item s7"></div>
+        </div>
+        <div class="slot-track">
+            <div class="slot-item s8"></div>
+        </div>
+        <div class="slot-track">
+            <div class="slot-item s9"></div>
+        </div>
+        <div class="slot-track">
+            <div class="slot-item s10"></div>
+        </div>
+        <div class="slot-track">
+            <div class="slot-item s11"></div>
+        </div>
+        <div class="slot-track">
+            <div class="slot-item s12"></div>
+        </div>
+        <div class="slot-track">
+            <div class="slot-item s13"></div>
+        </div>
+        <div class="slot-track">
+            <div class="slot-item s14"></div>
+        </div>
+        <div class="slot-track">
+            <div class="slot-item s15"></div>
+        </div>
+        <div class="slot-track">
+            <div class="slot-item s16"></div>
+        </div>
+        <div class="slot-track">
+            <div class="slot-item s17"></div>
+        </div>
+        <div class="slot-track">
+            <div class="slot-item s18"></div>
+        </div>
+        <div class="slot-track">
+            <div class="slot-item s19"></div>
+        </div>
+        <div class="slot-track">
+            <div class="slot-item s20"></div>
+        </div>
+        <div class="slot-track">
+            <div class="slot-item s21"></div>
+        </div>
+    </div>
+</body>
+
+</html>

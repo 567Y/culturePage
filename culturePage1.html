@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" href="css/index.css">
+	<link rel="stylesheet" href="css/culturePage.css">
+	<script src="js/jquery.min.js"></script>
+	<style>
+		/* 高亮区域 */
+		.wrap {
+			margin-top: 100px;
+			width: 100%;
+			height: 204px;
+			padding: 10px 0 0 10px;
+			background: #000;
+			overflow: hidden;
+			border: 1px solid #fff;
+		}
+
+		.wrap ul {
+			display: flex;
+			justify-content: space-around;
+		}
+
+		.wrap li {
+			margin: 0 10px 10px 0;
+		}
+
+		.wrap img {
+			display: block;
+			border: 0;
+		}
+
+		/* 返回顶部图标 */
+		.back {
+			position: fixed;
+			width: 70px;
+			height: 70px;
+			background-color: darkred;
+			right: 10px;
+			bottom: 100px;
+			display: none;
+			text-align: center;
+			border-radius: 50px;
+			cursor: pointer;
+			color: #fff;
+		}
+
+		.back img {
+			width: 50%;
+			height: 50%;
+		}
+	</style>
+</head>
+
+<body>
+	<div class="wrap">
+		<ul>
+			<li>
+				<a href="#"><img src="./img/01.jpg" alt=""></a>
+			</li>
+			<li>
+				<a href="#"><img src="./img/02.jpg" alt=""></a>
+			</li>
+			<li>
+				<a href="#"><img src="./img/03.jpg" alt=""></a>
+			</li>
+			<li>
+				<a href="#"><img src="./img/04.jpg" alt=""></a>
+			</li>
+			<li>
+				<a href="#"><img src="./img/05.jpg" alt=""></a>
+			</li>
+			<li>
+				<a href="#"><img src="./img/06.jpg" alt=""></a>
+			</li>
+		</ul>
+	</div>
+
+	<div class="main">
+		<div class="title">
+			<h2>京剧介绍</h2>
+			<hr color="red" size="10">
+		</div>
+		<div class="content">
+			<div class="img">
+				<img src="./img/huadan1.jpg" alt="">
+			</div>
+			<div class="con">
+				<p>
+				<h1 style="display: inline-block; text-indent: 2em;">京剧</h1>
+				京剧，又称平剧、京戏等，中国国粹之一，是中国影响最大的戏曲剧种分布地以北京为中心，遍及全国各地。</p>
+				<p>清代乾隆五十五年
+					(1790年)起，原在南方演出的三庆、四喜、春台、和春等多以安徽籍艺人为主的四人徽班陆续进入北京，与来自湖北的汉调艺人合作，同时接受了昆曲素腔的部分剧目、曲调和表演方法，又吸收了一些地方民间曲调，通过不断的交流、融台，最终形成京剧。
+				</p>
+				<p>京剧在文学、表演、音乐、舞台关术等各个方面都有一套规范化的艺术表现形式。京剧的唱脖属板式变化体，以二箭、西皮为主要声腔。京剧伴奏分文场和武场两大类，文场以胡琴为主奏乐器，武场以鼓板为主。京剧的角色分为生、且、净、丑、杂、武、流等行当，后三行已不再立专行京剧现在的角色分为生、旦、净、丑四种。各行当者有一套表演程式，唱念做打的技艺各具特色。京剧以历史故事为主要演出内容，传统剧口约有一千三百多个，常演的在三四百个以上。
+					京剧流播全国，影响甚广，有“国剧”之称。以梅兰龙命名的京剧表演体系被视为尔方戏剧表演体系的代表，为世界二大表演体系之
+					。京剧是中华民族传统文化的重要表现形式，其中的多种艺术元素被用作中国传统文化的象外符号。2006年5月，京被国务院批准列入第一批国家级非物质文化遗产名录。2010年，被列入联合国救科文组织非物质文化遗产名录
+					(名册)人类非物质文化遗产代表名录。</p>
+			</div>
+		</div>
+
+		<div class="intor">
+			<div class="item">
+				<div class="img">
+					<img src="./img/R-C.jpg" alt="">
+				</div>
+				<div class="contene">
+					<div class="title">
+						<h2>霸王别姬</h2>
+					</div>
+					<hr color="red" size="5" width="100%">
+					<div class="con">
+						葫王别姬是京剧艺术大师梅兰芳表演的梅派经典名剧之一。主角是西楚霸王项羽的爱妃卓姬。奉末，楚汉相争，韩信命李左立诈降项羽，谁项羽进兵..
+					</div>
+				</div>
+			</div>
+
+			<div class="item">
+				<div class="img">
+					<img src="img/R-C (2).jpg" alt="">
+				</div>
+				<div class="contene">
+					<div class="title">
+						<h2>定军山</h2>
+					</div>
+					<hr color="red" size="5" width="100%">
+					<div class="con">
+						京剧《走军山》讲述的是三国时魏孟交战，曹操派大将张部攻打萌关，被蜀汉老将军黄忠、严颜打败。张部逃到定军山，投奔夏侯渊，准备共同对坑围军....
+					</div>
+				</div>
+			</div>
+
+			<div class="item">
+				<div class="img">
+					<img src="img/R-C (1).jpg" alt="">
+				</div>
+				<div class="contene">
+					<div class="title">
+						<h2>贵妃醉酒</h2>
+					</div>
+					<hr color="red" size="5" width="100%">
+					<div class="con">
+						京剧《贵妃醉酒》又名《百花亭》是一出单折戏，取材于中国唐朝历史人物极告妃的故事，经过中国著名京剧表演艺术家梅兰芳先生创作、表演而广为人知，是梅派代表剧目之一..
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="PekingOpera-song">
+			<div class="head">京剧五大名曲</div>
+			<hr color="red" size="10px">
+			<div class="item" style="margin-top: 20px;">
+				<img src="./img/song1.jpg" alt="">
+				<div class="con">
+					<div class="titleSong">借东风</div>
+					《借东风》是京剧传统经典剧目，叙述：曹操伐吴，兵扎长江
+					。庞统献连环计，诱曹操钉锁战船，以利火攻，曹操中计。然
+					时值隆冬，独缺东风，难将火势引向曹营，周瑜因之忧思成病。
+					诸葛亮料定甲子日东风必降，因借探病之机向周瑜建言，自称能借得东风。周瑜为其在南屏山搭筑坛台，
+					诸葛亮登台“作法”，东风果然如期而至。周瑜嫉其能，遣将追杀，诸葛亮早有防备，在赵云接应下返回夏口
+					京剧《借东风》取材于古典小说《三国演义》，是继“群英会”蒋干盗书，黄盖诈降曹营，庞统劝说曹操连锁战船，“欲破曹兵，须用火攻；万事俱备，只欠东风。”条件下，孔明在南屏山筑台祭风。然周瑜忌材，埋伏将士，欲害孔明。孔明见东风一起，悄然来到江边，与奉命准备的赵子龙相见，回转夏口。京剧《借东风》是一出老生唱工戏，是马连良的代表作，由于有“蒋干盗书”、“黄盖诈降”等铺垫，常与《群英会》一起演出，也可以单独演出。
+				</div>
+			</div>
+
+			<div class="item">
+				<img src="./img/song3.jpg" alt="">
+				<div class="con">
+					<div class="titleSong">金玉奴</div>
+					《金玉奴》是戏曲传统剧目，亦名《棒打薄情郎》，取材于《古今小说》第二十七卷《金玉奴棒打薄情郎》。豫剧皇后陈素真、京剧大师荀慧生的早年剧目，
+					还有评剧、河北梆子均有此剧目，川剧有《棒打莫稽》，徽剧、滇剧均有《红鸾喜》。
+					内容提要：一天大雪，无家可归的穷秀才莫稽倒卧在丐头金松门前，金松女儿金玉奴见他可怜，唤他进门，温豆汁给他喝，由于同情莫稽的遭遇，玉奴由怜生爱，
+					金松也认为女儿有所托欣然成就了他们的婚事。
+					婚后，金玉奴操针陪伴莫稽读书，时值朝廷开科取士，玉奴促他应试，金松亦随同前往，沿途叫化，始得到京。
+					莫稽得中，授任江南德化县知县，竟忘其所以，嫌玉奴出身微贱，乃冷眼相加，赴任途中，人面兽心的莫稽竟将玉奴推落江心，并赶走金松，一个人赴任。
+					玉奴被莫稽上司江西巡按林润所救，林又派人找来金松使其父女相聚，林润复促使其夫妇和好，玉奴假意应允，花烛之时当众痛数莫稽之罪，命丫环重责，并坚拒与其重温旧梦，林润打本进京参掉莫稽的前程。
+				</div>
+			</div>
+
+			<div class="item">
+				<img src="./img/song4.jpg" alt="">
+				<div class="con">
+					<div class="titleSong">女起解</div>
+					《女起解》又名《苏三起解》《起解》，京剧传统剧目，折子戏。为京剧剧目《玉堂春》中一折。取材于明朝冯梦龙《警世通言》第二十四卷《玉堂春落难逢夫》，由梆子剧移植而来。
+					见《苟慧生演出剧本选》，及《京剧从刊》等刊本 [1] 。
+					该剧目讲述了苏三被鸨儿设计卖之于山西富商沈燕林作妾，
+					沈妻皮氏与赵监生私通，毒死沈，反诬告苏三，县官受贿，将苏三问成死罪。
+					解差崇公道提解苏三自洪洞赴太原复审，途中苏三诉说遭遇，崇加劝慰
+					名妓苏三（玉堂春）识吏部尚书之子王金龙，誓偕白首，王金龙被鸨儿驱出院以后，苏三矢志不接一客。鸨儿又计卖之于山西富商沈燕林作妾，沈妻皮氏与赵监生私通，毒死沈，反诬告苏三，县官受贿，将苏三问成死罪。
+					解差崇公道提解苏三自洪洞赴太原复审，途中苏三诉说遭遇，崇加劝慰
+				</div>
+			</div>
+
+			<div class="item">
+				<img src="./img/song5.jpg" alt="">
+				<div class="con">
+					<div class="titleSong">让徐州</div>
+					《让徐州》根据《三国演义》第12回改编的历史故事。叙述三国时期，曹操围攻徐州，徐州府君陶谦将刘、关、张三兄弟请来解围，
+					痛陈曹操挟天子以令诸侯的恶行，并待为上宾，诚恳邀请刘备主持徐州政务，以表示自己对汉王朝的衷心。刘备表示心领，但他决不能接受这个请求，暂留小沛。无奈，陶谦苦苦哀求，关羽、张飞也帮助劝说，
+					刘备这才勉强应允。随后，陶谦病死，其子年幼，刘备掌管徐州。
+					京剧剧目《让徐州》，又称《三让徐州》、《陶恭祖》，是京剧流派言派（言菊朋）的代表作，唱腔婉委流畅，细腻传神。
+					汉末建安（献帝年号）之世，群雄角逐。凡太守刺史，各据州郡，强存弱肉，互相并吞，朝廷之政教号令，弃等弁髦。曹操强迁献帝于许都，
+					挟天子以令诸侯，势力最大。稍不如意，动辄临之以兵，无敢与抗衡者也。徐州太守陶谦，实治世之良臣，非乱世之能臣，自知处于战争旋涡之中
+				</div>
+			</div>
+
+			<div class="item">
+				<img src="img/song2.jpg" alt="">
+				<div class="con">
+					<div class="titleSong">空城计</div>
+					《空城计》又名《抚琴退兵》，京剧传统剧目。该剧目在剧情上通常前接《失街亭》，后接《斩马谡》，合称《失空斩》。
+					该剧目取材于《三国演义》第九十五回《马谡拒谏失街亭，武侯弹琴退仲达》，讲述了马谡违背诸葛亮的指示失了街亭之后，
+					司马懿带领大兵来攻打诸葛亮驻扎的西城。当时诸葛亮身边没有兵将，只得以空城为计，大开城门故弄玄虚。司马懿到了一看，唯恐内有埋伏，
+					因而撤兵离去的故事。同名的影视作品《空城计》于1976年上映，主演有黄德华、 李宗义、杨鸣孝 、李月增 、 肖英翔。
+				</div>
+			</div>
+
+
+		</div>
+		<div class="back">
+			<img src="./img/返回顶部.png" alt="">
+			<div> 返回顶部</div>
+		</div>
+	</div>
+</body>
+<script>
+	$(function () {
+		//鼠标进入的时候,其他的li标签透明度：0.5
+		$(".wrap li").hover(function () {
+			$(this).siblings().stop().fadeTo(400, 0.5);
+		}, function () {
+			// 鼠标离开，其他li 透明度改为 1
+			$(this).siblings().stop().fadeTo(400, 1);
+		})
+
+		$(document).scrollTop(100);
+		var boxTop = $(".main").offset().top;
+		// $(document).scroll(function() 和 $(window).scroll(function()设置滚动事件都可以
+		$(window).scroll(function () {
+			// console.log(11);
+			console.log($(document).scrollTop());
+			if ($(document).scrollTop() >= boxTop) {
+				$(".back").fadeIn();
+			} else {
+				$(".back").fadeOut();
+			}
+		});
+		// 返回顶部
+		$(".back").click(function () {
+			// $(document).scrollTop(0);
+			$("body, html").stop().animate({
+				scrollTop: 0
+			});
+		})
+	})
+</script>
+
+</html>

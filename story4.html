@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <style>
+        body {
+            background-color: #fff;
+        }
+
+        .main .title,
+        .foot {
+            width: 100%;
+            height: 50px;
+            line-height: 50px;
+            background-color: darkred;
+            color: #fff;
+            margin-top: 150px;
+        }
+
+        .main .foot {
+            text-align: center;
+        }
+
+        .main .content {
+            font-size: 18px;
+            margin: 10px;
+            color: #ccc;
+        }
+
+        img {
+            padding: 10px 15px;
+            width: 350px;
+            height: 190px;
+            float: right;
+        }
+
+        .main {
+            width: 100%;
+            height: 900px;
+        }
+
+        .slot {
+            position: relative;
+            height: 100%;
+            overflow: hidden;
+        }
+
+        .slot-track {
+            position: relative;
+            float: left;
+            width: 4.76%;
+            height: 100%;
+            overflow: hidden;
+        }
+
+        .slot-track:first-child {
+            width: 4.8%;
+        }
+
+        .slot-item {
+            position: relative;
+            height: 100%;
+        }
+
+
+        .slot-item.s1 {
+            background-image: url(img/c1.png);
+        }
+
+        .slot-item.s2 {
+            background-image: url(img/c2.png);
+        }
+
+        .slot-item.s3 {
+            background-image: url(img/c3.png);
+        }
+
+        .slot-item.s4 {
+            background-image: url(img/c4.png);
+        }
+
+        .slot-item.s5 {
+            background-image: url(img/c5.png);
+        }
+
+        .slot-item.s6 {
+            background-image: url(img/c6.png);
+        }
+
+        .slot-item.s7 {
+            background-image: url(img/c7.png);
+        }
+
+        .slot-item.s8 {
+            background-image: url(img/c8.png);
+        }
+
+        .slot-item.s9 {
+            background-image: url(img/c9.png);
+        }
+
+        .slot-item.s10 {
+            background-image: url(img/c10.png);
+        }
+
+        .slot-item.s11 {
+            background-image: url(img/c11.png);
+        }
+
+        .slot-item.s12 {
+            background-image: url(img/c12.png);
+        }
+
+        .slot-item.s13 {
+            background-image: url(img/c13.png);
+        }
+
+        .slot-item.s14 {
+            background-image: url(img/c14.png);
+        }
+
+        .slot-item.s15 {
+            background-image: url(img/c15.png);
+        }
+
+        .slot-item.s16 {
+            background-image: url(img/c16.png);
+        }
+
+        .slot-item.s17 {
+            background-image: url(img/c17.png);
+        }
+
+        .slot-item.s18 {
+            background-image: url(img/c18.png);
+        }
+
+        .slot-item.s19 {
+            background-image: url(img/c19.png);
+        }
+
+        .slot-item.s20 {
+            background-image: url(img/c20.png);
+        }
+
+        .slot-item.s21 {
+            background-image: url(img/c21.png);
+        }
+
+        .slot-item.s22 {
+            background-image: url(img/c1.png);
+        }
+
+        .slot-item.s23 {
+            background-image: url(img/c2.png);
+        }
+
+        .slot-item.s24 {
+            background-image: url(img/c3.png);
+        }
+
+        .slot-item.s25 {
+            background-image: url(img/c4.png);
+        }
+
+        .slot-item.s26 {
+            background-image: url(img/c5.png);
+        }
+
+        .slot-item.s27 {
+            background-image: url(img/c6.png);
+        }
+
+        .slot-item.s28 {
+            background-image: url(img/c7.png);
+        }
+
+        .slot-item.s29 {
+            background-image: url(img/c8.png);
+        }
+
+        .slot-item.s30 {
+            background-image: url(img/c9.png);
+        }
+
+        .slot-item.s31 {
+            background-image: url(img/c10.png);
+        }
+
+        .slot-item.s32 {
+            background-image: url(img/c11.png);
+        }
+
+        .slot-item.s33 {
+            background-image: url(img/c12.png);
+        }
+
+        .slot-item.s34 {
+            background-image: url(img/c13.png);
+        }
+
+        .slot-item.s35 {
+            background-image: url(img/c14.png);
+        }
+
+        .slot-item.s36 {
+            background-image: url(img/c15.png);
+        }
+
+        .slot-item.s37 {
+            background-image: url(img/c16.png);
+        }
+
+        .slot-item.s38 {
+            background-image: url(img/c17.png);
+        }
+
+        .slot-item.s39 {
+            background-image: url(img/c18.png);
+        }
+
+        .slot-item.s40 {
+            background-image: url(img/c19.png);
+        }
+
+        .slot-item.s41 {
+            background: url(img/c20.png);
+        }
+
+        .slot-item.s42 {
+            background-image: url(img/c21.png);
+        }
+
+        .slot {
+            height: 1000px;
+            position: absolute;
+            left: 0;
+            right: 0;
+            top: 0;
+            bottom: 0;
+            z-index: -1;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="slot">
+        <div class="slot-track">
+            <div class="slot-item s1"></div>
+        </div>
+        <div class="slot-track">
+            <div class="slot-item s2"></div>
+        </div>
+        <div class="slot-track">
+            <div class="slot-item s3"></div>
+        </div>
+        <div class="slot-track">
+            <div class="slot-item s4"></div>
+        </div>
+        <div class="slot-track">
+            <div class="slot-item s5"></div>
+        </div>
+        <div class="slot-track">
+            <div class="slot-item s6"></div>
+        </div>
+        <div class="slot-track">
+            <div class="slot-item s7"></div>
+        </div>
+        <div class="slot-track">
+            <div class="slot-item s8"></div>
+        </div>
+        <div class="slot-track">
+            <div class="slot-item s9"></div>
+        </div>
+        <div class="slot-track">
+            <div class="slot-item s10"></div>
+        </div>
+        <div class="slot-track">
+            <div class="slot-item s11"></div>
+        </div>
+        <div class="slot-track">
+            <div class="slot-item s12"></div>
+        </div>
+        <div class="slot-track">
+            <div class="slot-item s13"></div>
+        </div>
+        <div class="slot-track">
+            <div class="slot-item s14"></div>
+        </div>
+        <div class="slot-track">
+            <div class="slot-item s15"></div>
+        </div>
+        <div class="slot-track">
+            <div class="slot-item s16"></div>
+        </div>
+        <div class="slot-track">
+            <div class="slot-item s17"></div>
+        </div>
+        <div class="slot-track">
+            <div class="slot-item s18"></div>
+        </div>
+        <div class="slot-track">
+            <div class="slot-item s19"></div>
+        </div>
+        <div class="slot-track">
+            <div class="slot-item s20"></div>
+        </div>
+        <div class="slot-track">
+            <div class="slot-item s21"></div>
+        </div>
+    </div>
+    <div class="main">
+        <div class="title">危难时刻见真情</div>
+        <img src="./img/story4.jpg" alt="">
+        <p class="content">
+            1936年5月底6月初，经历了无数的磨难，红6军团到达了西康境内。由于连续的草地行军，特别是长时间的断粮缺水，战士们的体力严重不足，部队疲劳到了极限。粮食问题再得不到解决，部队就很难再前进了。正当大家几乎陷入绝望的时候，他们在一个
+            叫稻城的小县城和红32军会合了。 <br>
+            红32军是为了专门接应红6军团来到稻城的。在最困难的时候见到友军，大家奔走相告，心里别提有多高兴了，本来疲惫不堪的身体好像一下子充足了电。 <br>
+            红32军给红6军团送来了一群大牦牛、肥猪和肥羊，一捆捆的羊皮背心、羊皮手套和睡觉用的皮垫子，还有不少青裸和豌豆。这样多的物资对他们来说真是”及时雨”。其实，红32军也是经过草地行军、忍饥受冻过来的，在那样艰苦的岁月里，红32军的战
+            友们所体现的团结互助精神让人终身难忘。<br>
+            一番休整后，红6军团又踏上了征程。当时全军上下竞连一口可以做饭的大锅也没有。原来部队集体用的厨具，随着行军作战已全部丢掉了。自从渡过金沙江后，干部战士都是分散野餐，用个人的塘瓷缸子当炊具。可红32军送给他们的这些肉食和粮食，怎样才能吃到嘴里呢?
+            <br>
+            为了不麻烦当地的藏族同胞，红6军团的先头部队向藏族群众买了几口大缸，用来煮肉。大家正准备美餐一顿时，没想到他们买的那些大缸经不起烈火高温的烘烤，肉还没煮熟，大缸就”砰“地一声炸了。有的连队由于烧坏了大缸，干脆就吃起了半生不熟的肉。买不起知的连队，就把肉分割给个人，战士们三个一群，五个一伙，在地上点上火，经过一番烟重火燎之后，吃起了"重肉”或”烤肉”，这倒也别有一番情趣。对一时吃不掉的牦牛，在行军中部队就用它们来驮枪械子弹枪药，给病号骑，等需要的时候，然后再陆续杀掉改善生活补充给养，<br>
+            每当大家吃牛、羊肉，看到耗牛在行军中所起的作用时，红6军团的战士们都会深情地怀念起红32军的同志们。
+        </p>
+        <div class="foot">长军故事</div>
+    </div>
+</body>
+
+</html>

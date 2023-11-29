@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <style>
+        body {
+            background-color: #fff;
+        }
+
+        .main .title,
+        .foot {
+            width: 100%;
+            height: 50px;
+            line-height: 50px;
+            background-color: darkred;
+            color: #fff;
+            margin-top: 150px;
+        }
+
+        .main .foot {
+            text-align: center;
+        }
+
+        .main .content {
+            font-size: 18px;
+            margin: 10px;
+            color: #ccc;
+        }
+
+        img {
+            padding: 10px 15px;
+            width: 350px;
+            height: 190px;
+            float: right;
+        }
+
+        .main {
+            width: 100%;
+            height: 900px;
+        }
+
+        .slot {
+            position: relative;
+            height: 100%;
+            overflow: hidden;
+        }
+
+        .slot-track {
+            position: relative;
+            float: left;
+            width: 4.76%;
+            height: 100%;
+            overflow: hidden;
+        }
+
+        .slot-track:first-child {
+            width: 4.8%;
+        }
+
+        .slot-item {
+            position: relative;
+            height: 100%;
+        }
+
+
+        .slot-item.s1 {
+            background-image: url(img/c1.png);
+        }
+
+        .slot-item.s2 {
+            background-image: url(img/c2.png);
+        }
+
+        .slot-item.s3 {
+            background-image: url(img/c3.png);
+        }
+
+        .slot-item.s4 {
+            background-image: url(img/c4.png);
+        }
+
+        .slot-item.s5 {
+            background-image: url(img/c5.png);
+        }
+
+        .slot-item.s6 {
+            background-image: url(img/c6.png);
+        }
+
+        .slot-item.s7 {
+            background-image: url(img/c7.png);
+        }
+
+        .slot-item.s8 {
+            background-image: url(img/c8.png);
+        }
+
+        .slot-item.s9 {
+            background-image: url(img/c9.png);
+        }
+
+        .slot-item.s10 {
+            background-image: url(img/c10.png);
+        }
+
+        .slot-item.s11 {
+            background-image: url(img/c11.png);
+        }
+
+        .slot-item.s12 {
+            background-image: url(img/c12.png);
+        }
+
+        .slot-item.s13 {
+            background-image: url(img/c13.png);
+        }
+
+        .slot-item.s14 {
+            background-image: url(img/c14.png);
+        }
+
+        .slot-item.s15 {
+            background-image: url(img/c15.png);
+        }
+
+        .slot-item.s16 {
+            background-image: url(img/c16.png);
+        }
+
+        .slot-item.s17 {
+            background-image: url(img/c17.png);
+        }
+
+        .slot-item.s18 {
+            background-image: url(img/c18.png);
+        }
+
+        .slot-item.s19 {
+            background-image: url(img/c19.png);
+        }
+
+        .slot-item.s20 {
+            background-image: url(img/c20.png);
+        }
+
+        .slot-item.s21 {
+            background-image: url(img/c21.png);
+        }
+
+        .slot-item.s22 {
+            background-image: url(img/c1.png);
+        }
+
+        .slot-item.s23 {
+            background-image: url(img/c2.png);
+        }
+
+        .slot-item.s24 {
+            background-image: url(img/c3.png);
+        }
+
+        .slot-item.s25 {
+            background-image: url(img/c4.png);
+        }
+
+        .slot-item.s26 {
+            background-image: url(img/c5.png);
+        }
+
+        .slot-item.s27 {
+            background-image: url(img/c6.png);
+        }
+
+        .slot-item.s28 {
+            background-image: url(img/c7.png);
+        }
+
+        .slot-item.s29 {
+            background-image: url(img/c8.png);
+        }
+
+        .slot-item.s30 {
+            background-image: url(img/c9.png);
+        }
+
+        .slot-item.s31 {
+            background-image: url(img/c10.png);
+        }
+
+        .slot-item.s32 {
+            background-image: url(img/c11.png);
+        }
+
+        .slot-item.s33 {
+            background-image: url(img/c12.png);
+        }
+
+        .slot-item.s34 {
+            background-image: url(img/c13.png);
+        }
+
+        .slot-item.s35 {
+            background-image: url(img/c14.png);
+        }
+
+        .slot-item.s36 {
+            background-image: url(img/c15.png);
+        }
+
+        .slot-item.s37 {
+            background-image: url(img/c16.png);
+        }
+
+        .slot-item.s38 {
+            background-image: url(img/c17.png);
+        }
+
+        .slot-item.s39 {
+            background-image: url(img/c18.png);
+        }
+
+        .slot-item.s40 {
+            background-image: url(img/c19.png);
+        }
+
+        .slot-item.s41 {
+            background: url(img/c20.png);
+        }
+
+        .slot-item.s42 {
+            background-image: url(img/c21.png);
+        }
+
+        .slot {
+            height: 1000px;
+            position: absolute;
+            left: 0;
+            right: 0;
+            top: 0;
+            bottom: 0;
+            z-index: -1;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="slot">
+        <div class="slot-track">
+            <div class="slot-item s1"></div>
+        </div>
+        <div class="slot-track">
+            <div class="slot-item s2"></div>
+        </div>
+        <div class="slot-track">
+            <div class="slot-item s3"></div>
+        </div>
+        <div class="slot-track">
+            <div class="slot-item s4"></div>
+        </div>
+        <div class="slot-track">
+            <div class="slot-item s5"></div>
+        </div>
+        <div class="slot-track">
+            <div class="slot-item s6"></div>
+        </div>
+        <div class="slot-track">
+            <div class="slot-item s7"></div>
+        </div>
+        <div class="slot-track">
+            <div class="slot-item s8"></div>
+        </div>
+        <div class="slot-track">
+            <div class="slot-item s9"></div>
+        </div>
+        <div class="slot-track">
+            <div class="slot-item s10"></div>
+        </div>
+        <div class="slot-track">
+            <div class="slot-item s11"></div>
+        </div>
+        <div class="slot-track">
+            <div class="slot-item s12"></div>
+        </div>
+        <div class="slot-track">
+            <div class="slot-item s13"></div>
+        </div>
+        <div class="slot-track">
+            <div class="slot-item s14"></div>
+        </div>
+        <div class="slot-track">
+            <div class="slot-item s15"></div>
+        </div>
+        <div class="slot-track">
+            <div class="slot-item s16"></div>
+        </div>
+        <div class="slot-track">
+            <div class="slot-item s17"></div>
+        </div>
+        <div class="slot-track">
+            <div class="slot-item s18"></div>
+        </div>
+        <div class="slot-track">
+            <div class="slot-item s19"></div>
+        </div>
+        <div class="slot-track">
+            <div class="slot-item s20"></div>
+        </div>
+        <div class="slot-track">
+            <div class="slot-item s21"></div>
+        </div>
+    </div>
+    <div class="main">
+        <div class="title">彭德怀杀大黑骡子</div>
+        <img src="./img/story3.jpg" alt="">
+        <p class="content">
+            过草地是红军长征途中最为艰苦的一段历程。红军指战员在饥寒交迫的情况下向北挺进，走在前面的部队断粮了还可以挖野菜吃，走在后面的部队则连野菜也找不到。<br>
+            彭德怀率领红三军团负责殿后。他眼见战士们一个个因饥饿而昏倒在地，便把目光盯在自己的大骡子上。这匹从江西出发时就跟随彭德怀的大骡子，一路上驮粮食、驮器材，每天它背上都堆得像小山似的。有时彭德怀抚摸着大黑骤子念叨着:“你太辛苦了，连一点料都吃不上。“说着，就把自己的干粮分出一些悄悄地塞进大黑骤子的嘴里，一直看着它吃完。
+            <br>
+            现在，草地上断粮了，彭德怀决定杀坐骑解决燃眉之急。他把饲养员喊了来问道:“总共还有几头牲口? <br>
+            连你的大黑骡子还有六头。”老饲养员回答道。<br>
+            ”好，全集中起来，杀掉吃肉!“彭德怀的话就是命令。“什么，杀掉?你不出草地啦?“老饲养员着急了。几个警卫员听后也急忙围拢过来，大声说:“军团长，大黑骡子可不能杀呀!“ <br>
+            彭德怀深情地望着拴在不远处的大黑骤子，平静地说:“部队现在连野菜也吃不上了，只有杀牲口解决吃的，或许能多一些人走出草地。老饲养员流着眼泪对彭德怀说:“可是你怎么走出草地?别的可以杀，大黑骡子 <br>
+            一定要留下，它为革命立过功。<br>
+            彭德怀拍着者间养员的肩膀说:“你们能走，我也能走，雪山不是已经走过来了吗?草地又算得了什么!大里理子是为革命立了功，这次就让它立最后一次大功吧 <br>
+            还是把大黑骡子留下来吧!“大家在请求。但彭德怀大声而坚决地对身边的警卫员说:“邱南辉，传我的命令，让副官长负责杀骤子!“ <br>
+            六四性口集中到了一起。老饲养员拍者大黑嘿子的脖子又在轻轻絮语:"大黑嘿子呀，大黑嘿子!委屈你了，你为革命立大功吧!"彭德怀背过脸去。枪声没有响，谁也不愿意开枪。<br>
+            二十分钟过去了，没有谁下得了那个狠心。六匹性口都好像预感到了什么，集体嘶叫了几声，又默默地低下了头。副官长，快开枪!你不向它们开枪，我就向你开枪!”彭德怀双手叉在腰间怒吼道。手提机枪的副官长把六匹牲口向远处牵了牵，枪口对准了它们，大家都闭上了眼睛。枪声响了。彭德怀向着斜倒下去的大黑嘿子，缓缓地植下军帽一这天晚上，草地火旁多了些生机。彭德怀推开警卫员端来的一碗肉汤，发火道:“"我吃不下端开!
+            <br>
+            漫漫征程，再也见不到大黑骡子的身影了，它融进了北进的滚滚铁流，融进了宣传员鼓励战士们的竹板声里:“身无御塞衣，肚内饥。晕倒了爬起来，跟上去，走到宿营地 <br>
+        </p>
+        <div class="foot">长军故事</div>
+    </div>
+</body>
+
+</html>

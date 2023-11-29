@@ -1,0 +1,160 @@
+body{
+    background-color: #fff;
+}
+.main .redNews .redNews-rigth{
+    width: 70%;
+    border-radius: 15px;
+}
+
+.main .redNews .redNews-rigth .nav{
+    display: flex;
+    justify-content: space-between;
+    height: 40px;
+    line-height: 40px;
+    background-color: red;
+    color: #fff;
+    border: 1px solid #000;
+    border-radius: 15px 15px 0 0 ;
+    
+}
+
+.main .redNews .redNews-rigth .nav li{
+    width: 33%;
+    text-align: center;
+}
+
+.main .redNews .redNews-rigth .nav .item1 img{
+    width: 280px;
+    height: 280px;
+    padding: 10px;
+}
+.main .redNews .redNews-rigth{
+    border: 1px solid red;
+    height: 400px;
+}
+
+.main .redNews .redNews-rigth .nav .item2 ul li{
+    width: 600px;
+    color: #000;
+     line-height: 60px;
+
+}
+.main .redNews .redNews-rigth .nav .item2 ul span{
+    margin-left: 60px;
+}
+
+ img{
+    width: 28px;
+    height: 30px;
+}
+.main .redNews {
+    display: flex;
+    justify-content: space-around;
+}
+
+.main .redNews .redNews-left{
+    width: 27%;
+    border: 1px solid red;
+    border-radius: 15px;
+}
+.main .redNews .redNews-left .read ul li{
+    width: 100%;
+    line-height: 60px;
+    border-bottom: 1px dashed #000;
+    font-weight: 600;
+}
+
+.main .redNews .redNews-left .audio-like{
+    border-radius: 15px 15px 0 0 ;
+   width: 100%;
+   height: 40px;
+   line-height: 40px;
+   background-color: red;
+   color: #fff;
+}
+.con{
+    color: #000;
+    width: 550px;
+}
+
+.main .redHero{
+    width: 100%;
+    height: auto;
+    padding: 10px;
+}
+.main .redHero .nav{
+    height: 40px;
+    line-height: 40px;
+    background-color: red;
+    color: #fff;
+}
+.main .redHero{
+    border: 1px solid red;
+}
+.main .redHero .content{
+    display: flex;
+    justify-content: space-between;
+}
+.main .redHero .content .list{
+    width: 30%;
+    line-height: 60px;
+}
+.main .redHero .content .hero{
+    width: 70%;
+    display: flex;
+    flex-direction:column;
+    /* border: 1px solid red; */
+}
+
+.main .redHero .content .hero ul{
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+}
+.main .redHero .content .hero ul li .name{
+    text-align: center;
+}
+.main .redHero .hero img{
+    width: 130px;
+    height: 170px;
+    margin: 6px;
+    transition: 1s;
+}
+.main .redHero .hero img:hover{
+    transform: rotateY(180deg);
+}
+
+.main .redCurtural{
+    width: 100%;
+}
+
+.main .redCurtural .nav{
+    height: 40px;
+    line-height: 40px;
+    background-color: red;
+    color: #fff;
+}
+.main .redCurtural .list ul{
+    display: flex;
+    justify-content: space-around;
+    overflow: hidden;
+}
+
+.main .redCurtural .list ul li img{
+    width:220px;
+    height: 200px;
+}
+.main .redCurtural .list ul li div{
+    text-align: center;
+    font-weight: 600;
+    margin: 6px 0;
+}
+.main .redCurtural .list ul li{
+    width:220px;
+    height: 200px;
+    overflow: hidden;
+    transition: transform 0.5s ease-out; /* 定义过渡动画效果 */
+}
+.main .redCurtural .list ul li img:hover{
+    transform: scale(1.2);
+}
